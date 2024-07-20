@@ -153,7 +153,7 @@ const App: React.FC = () => {
               <Hamster size={24} className="text-[#d4d4d4]" />
             </div>
             <div>
-              <p className="text-sm">Abel (CEO)</p>
+              <p className="text-sm">Dev Abel (CEO)</p>
             </div>
           </div>
           <div className="flex items-center justify-between space-x-4 mt-1">
@@ -249,14 +249,12 @@ const App: React.FC = () => {
                 </p>
               </div>
             </div>
-
             <div className="px-4 mt-4 flex justify-center">
               <div className="px-4 py-2 flex items-center space-x-2">
                 <img src={dollarCoin} alt="Dollar Coin" className="w-10 h-10" />
                 <p className="text-4xl text-white">{points.toLocaleString()}</p>
               </div>
             </div>
-
             <div className="px-4 mt-4 flex justify-center">
               <div
                 className="w-80 h-80 p-4 rounded-full circle-outer"
@@ -271,6 +269,10 @@ const App: React.FC = () => {
                 </div>
               </div>
             </div>
+            <h3 className="text-[#85827d] text-center text-xs">
+              Abel Osaretin
+            </h3>
+            <p className="text-[#85827d] text-center text-xs">Blockchain Dev</p>
           </div>
         </div>
       </div>
